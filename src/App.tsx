@@ -1,9 +1,6 @@
 import logo from "./assets/images/logo.svg";
-import hamburger from "./assets/images/icon-hamburger.svg";
-
 import imgHeroMobile from "./assets/images/mobile/image-header.jpg";
 import imgHeroDesktop from "./assets/images/desktop/image-header.jpg";
-import arrow from "./assets/images/icon-arrow-down.svg";
 import imgTransformMobile from "./assets/images/mobile/image-transform.jpg";
 import imgTransformDesktop from "./assets/images/desktop/image-transform.jpg";
 import imgStandOutMobile from "./assets/images/mobile/image-stand-out.jpg";
@@ -31,39 +28,12 @@ import instagram from "./assets/images/icon-instagram.svg";
 import twitter from "./assets/images/icon-twitter.svg";
 import pinterest from "./assets/images/icon-pinterest.svg";
 
+import Menu from "./components/Menu";
+
 function App() {
   return (
     <main>
-      <header>
-        <nav className="flex-between">
-          <picture>
-            <img src={logo} alt="Logo" />
-          </picture>
-
-          <ul className="desktop">
-            <li>
-              <a href="">About</a>
-            </li>
-            <li>
-              <a href="">Services</a>
-            </li>
-            <li>
-              <a href="">Projects</a>
-            </li>
-            <li>
-              <a href="">Contact</a>
-            </li>
-          </ul>
-          <picture>
-            <img src={hamburger} alt="" className="mobile" />
-          </picture>
-        </nav>
-        <div>
-          <h1>We are creatives</h1>
-
-          <img src={arrow} alt="" />
-        </div>
-      </header>
+      <Menu></Menu>
 
       <section className="grid-six">
         <picture className="one">
