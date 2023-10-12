@@ -14,7 +14,7 @@ const Menu = () => {
     <header className={isMenuOpen ? "overlay" : ""}>
       <section className="nav-section flex-between">
         <a>
-          <img src={logo} alt="Logo" />
+          <img src={logo} alt="Logo" className="header-logo" />
         </a>
 
         <button

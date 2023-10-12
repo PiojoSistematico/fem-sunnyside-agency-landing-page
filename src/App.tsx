@@ -1,14 +1,9 @@
 import logo from "./assets/images/logo.svg";
-import imgHeroMobile from "./assets/images/mobile/image-header.jpg";
-import imgHeroDesktop from "./assets/images/desktop/image-header.jpg";
+
 import imgTransformMobile from "./assets/images/mobile/image-transform.jpg";
 import imgTransformDesktop from "./assets/images/desktop/image-transform.jpg";
 import imgStandOutMobile from "./assets/images/mobile/image-stand-out.jpg";
 import imgStandOutDesktop from "./assets/images/desktop/image-stand-out.jpg";
-import imgGraphicDesignMobile from "./assets/images/mobile/image-graphic-design.jpg";
-import imgGraphicDesignDesktop from "./assets/images/desktop/image-graphic-design.jpg";
-import imgPhotographyMobile from "./assets/images/mobile/image-photography.jpg";
-import imgPhotographyDesktop from "./assets/images/desktop/image-photography.jpg";
 
 import emily from "./assets/images/image-emily.jpg";
 import thomas from "./assets/images/image-thomas.jpg";
@@ -136,7 +131,7 @@ function App() {
         <picture>
           <img src={logo} alt="" className="footer-logo" />
         </picture>
-        <ul>
+        <ul className="footer-links">
           <li>
             <a href="">About</a>
           </li>
